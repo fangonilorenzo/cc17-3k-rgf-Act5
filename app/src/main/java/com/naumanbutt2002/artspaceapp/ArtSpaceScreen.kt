@@ -49,12 +49,12 @@ fun artSpaceDisplayLandscape()
         mutableStateOf(0)
     }
     val imageResource = when(displayImage) {
-        0 -> R.drawable.first
-        1 -> R.drawable.second
-        2 -> R.drawable.third
-        3 -> R.drawable.fourth
+        0 -> R.drawable.pinilit
+        1 -> R.drawable.renz
+        2 -> R.drawable.rick_and_morty_5k_artwork_hy_2048x1152
+        3 -> R.drawable.semion
 
-        else -> {R.drawable.first}
+        else -> {R.drawable.pinilit}
     }
     var displayDescription by remember {
         mutableStateOf(0)
@@ -131,12 +131,12 @@ fun artSpaceDisplayPortrait() {
         mutableStateOf(0)
     }
     val imageResource = when(displayImage) {
-        0 -> R.drawable.first
-        1 -> R.drawable.second
-        2 -> R.drawable.third
-        3 -> R.drawable.fourth
+        0 -> R.drawable.pinilit
+        1 -> R.drawable.renz
+        2 -> R.drawable.rick_and_morty_5k_artwork_hy_2048x1152
+        3 -> R.drawable.semion
 
-        else -> {R.drawable.first}
+        else -> {R.drawable.pinilit}
     }
     var displayDescription by remember {
         mutableStateOf(0)
